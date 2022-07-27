@@ -1,0 +1,18 @@
+Current Date: 2022/06/17
+-3 days since ms1 was published
+Please enter a date to be compared to 2022/06/20
+(Also try some invalid values for testing):
+YYYY/MM/DD > abc
+cin Failed, Please try again > 1/1/1
+Bad Year Value, Please try again > 2022/0/0
+Bad Month Value, Please try again > 2022/10/30
+Your Entry: 2022/10/30
+Set by program to 2022/6/20: 2022/06/20
+Days between the two dates: 132
+All the following statements must be correct:
+2022/10/30 > 2022/06/20
+2022/10/30 >= 2022/06/20
+2022/10/30 > 2022/06/20
+2022/10/30 >= 2022/06/20
+2022/10/30 != 2022/06/20
+2022/10/30 != 2022/06/20

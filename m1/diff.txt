@@ -1,0 +1,14 @@
+In line number 10 of your output:
+The output should be:
+Enter [38;5;13mabc: [0mabc
+                         ^
+But your output is: 
+Enter [38;5;13mabc: [0m^C==97531== 
+                         ^
+
+Unmatched character details:
+The character in column 26 is supposed to be:
+  [a] ASCII code(97)
+but you printed
+  [^] ASCII code(94)
+

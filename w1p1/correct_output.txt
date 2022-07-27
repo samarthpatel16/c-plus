@@ -1,0 +1,178 @@
+Script started on Sat 14 May 2022 12:20:20 AM EDT
+==189256== Memcheck, a memory error detector
+==189256== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==189256== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==189256== Command: ws
+==189256== 
+------------------------------------------------------------
+USAGE CASE #1: bad input file
+------------------------------------------------------------
+SUCCESS
+------------------------------------------------------------
+
+------------------------------------------------------------
+USAGE CASE #2: good quiz
+------------------------------------------------------------
+Question 1 -> OK
+Question 2 -> OK
+Question 3 -> OK
+Question 4 -> OK
+Question 5 -> OK
+Question 6 -> OK
+Question 7 -> OK
+****** Answer [2] to every question. *****
+
+QUESTION [1]
+^^^^^^^^^^^^
+When a C program starts, the function that gets executed is called ________
+1. principal
+2. main
+3. function
+4. func
+5. program
+Your answer? 2
+
+QUESTION [2]
+^^^^^^^^^^^^
+A C program can have only one function.
+1. True
+2. False
+Your answer? 2
+
+QUESTION [3]
+^^^^^^^^^^^^
+From the following sentences, select one that is correct:
+1. Any correct code in C is also correct in C++
+2. C source code can be organized into modules
+3. C++ augments C with object oriented features
+4. Namespaces are a feature available in C and C++
+5. There is no difference between "++i" and "i++"
+6. Abstraction is a characteristic that is common to ALL programming languages, regardless of their OOP status.
+Your answer? 2
+
+QUESTION [4]
+^^^^^^^^^^^^
+The stages of compilation in C++ are ________
+1. compile, debug, linking
+2. preprocess, compile, debug
+3. translate, preprocess, linking,
+4. compile, preprocess, linking
+5. analize, translate, verify
+6. debug, debug, debug
+Your answer? 2
+
+QUESTION [5]
+^^^^^^^^^^^^
+In C, the function "fopen" is used for ________
+1. open a web address
+2. open a file
+3. open a database
+4. open a module in VS editor
+5. there is no such function in C
+Your answer? 2
+
+QUESTION [6]
+^^^^^^^^^^^^
+What does 'std::printf("Hello\n")' means in C++?
+1. nothing, the syntax is not correct
+2. call the function "std" and pass "printf" as parameter
+3. insert the text "Hello" into a file
+4. print the text "Hello" to the screen
+Your answer? 2
+
+QUESTION [7]
+^^^^^^^^^^^^
+C++ is a strongly typed language
+1. True
+2. False
+Your answer? 2
+
+QUIZ RESULTS: your score is 4/7.
+------------------------------------------------------------
+
+------------------------------------------------------------
+USAGE CASE #3: bad quiz (not enough questions)
+------------------------------------------------------------
+SUCCESS
+------------------------------------------------------------
+
+------------------------------------------------------------
+USAGE CASE #4: another good quiz
+------------------------------------------------------------
+Question 1 -> OK
+Question 2 -> OK
+Question 3 -> OK
+Question 4 -> OK
+Question 5 -> OK
+****** Answer [3] to every question. *****
+
+QUESTION [1]
+^^^^^^^^^^^^
+What does 'std::printf("Hello\n")' means in C++?
+1. nothing, the syntax is not correct
+2. call the function "std" and pass "printf" as parameter
+3. insert the text "Hello" into a file
+4. print the text "Hello" to the screen
+Your answer? 2
+
+QUESTION [2]
+^^^^^^^^^^^^
+C++ is a strongly typed language
+1. True
+2. False
+Your answer? 2
+
+QUESTION [3]
+^^^^^^^^^^^^
+A C program can have only one function.
+1. True
+2. False
+Your answer? 2
+
+QUESTION [4]
+^^^^^^^^^^^^
+From the following sentences, select one that is correct:
+1. Any correct code in C is also correct in C++
+2. C source code can be organized into modules
+3. C++ augments C with object oriented features
+4. Namespaces are a feature available in C and C++
+5. There is no difference between "++i" and "i++"
+6. Abstraction is a characteristic that is common to ALL programming languages, regardless of their OOP status.
+Your answer? 2
+
+QUESTION [5]
+^^^^^^^^^^^^
+In C, the function "fopen" is used for ________
+1. open a web address
+2. open a file
+3. open a database
+4. open a module in VS editor
+5. there is no such function in C
+Your answer? 2
+
+QUIZ RESULTS: your score is 3/5.
+------------------------------------------------------------
+
+------------------------------------------------------------
+USAGE CASE #5: another bad quiz (bad questions)
+------------------------------------------------------------
+Question 1 -> OK
+Question 2 -> ERROR
+Question 3 -> OK
+Question 4 -> OK
+Question 5 -> ERROR
+Question 6 -> OK
+Question 7 -> ERROR
+SUCCESS
+------------------------------------------------------------
+
+==189256== 
+==189256== HEAP SUMMARY:
+==189256==     in use at exit: 0 bytes in 0 blocks
+==189256==   total heap usage: 6 allocs, 6 frees, 75,544 bytes allocated
+==189256== 
+==189256== All heap blocks were freed -- no leaks are possible
+==189256== 
+==189256== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Sat 14 May 2022 12:20:40 AM EDT

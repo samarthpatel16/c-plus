@@ -1,0 +1,9 @@
+/*---------------------------------------------------------
+Name:        Samarth Sunilkumar Patel
+Student ID:  150061208
+Seneca Email:sspatel65@myseneca.ca
+Section:     NBB
+Date:	     23-may-2022
+------------------------------------------------------------*/
+
+After completing this workshop, I have learned about object-oriented programming, modular programming and learned about various methodologies. Object-Oriented programming (OOP) is a PC programming model that puts together programming plan around information, or articles, as opposed to capacities and rationale. An object can be characterized as an information field that has one of a kind ascribes and conduct. This workshop portrays how to make a module in an item arranged dialects utilizing C++, how to gather the source code for every module independently and how to connect the aggregated code into a solitary executable double. A modular plan comprises of a bunch of modules, which are created and tried independently. Modular programming executes modular plans and is upheld by both procedural and object-arranged dialects. The C programming language upholds modular plan through library modules made from capacities. This workshop was very complicated and was a great work to solve the errors. The error in which I spend the most of time is shown below,quiz.cpp: In function ‰Û÷int quizzer::LoadQuiz(const char*)‰Ûª:quiz.cpp:20:71: warning: comparison with string literal results in unspecified behaviour [-Waddress]         if (filename == nullptr || filename[0] == '\0' || filename == "")In order to solve this error, I refered to the course notes and tried to watch previous recordings and after a lot of debugging I was finally able to solve this error.                                                                       
