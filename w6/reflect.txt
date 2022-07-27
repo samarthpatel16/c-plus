@@ -1,0 +1,20 @@
+/*---------------------------------------------------------
+Name:        Samarth Sunilkumar Patel
+Student ID:  150061208
+Seneca Email:sspatel65@myseneca.ca
+Section:     NBB
+Date:	     11 july,2022
+------------------------------------------------------------*/
+
+
+
+This workshop was one of the most difficult workshop i have done till now. In this workshop I learnt operator overload. I overloaded unary, parallel and
+ logical operators on crude sorts and classes. I confronted an issue in overloading
+ << operator where as per my underlying comprehension it is utilized to control
+ yield by overloading it for ostream class. Be that as it may, in this workshop I learned
+ that this operator like some other operator is can be utilized for different sorts also.
+ 
+ Also I have learnt to use delete[] to free the dynamically allocated memory.
+
+I confronted a ton of errors however the primary mistake wherein I invest the vast majority of the energy to tackle is the blunder in regards to memory leakage. I don't free the dynamically allocated memory and because of this I couldn't present the program. The clay was showing the blunder that expresses that my program was showing the ideal result yet there was an issue of memory leakage in my program because of this I couldn't present the studio. I alluded to the course notes and watched the recorded talks. At long last I utilized erase watchword to
+ free dynamically allocated memory.

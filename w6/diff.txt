@@ -1,0 +1,14 @@
+In line number 17 of your output:
+The output should be:
+Add a number to the list: 1000
+                             ^
+But your output is: 
+Add a number to the list: 100
+                              ^
+
+Unmatched character details:
+The character in column 31 is supposed to be:
+  [0] ASCII code(48)
+but you printed
+  [Empty Line] ASCII code(0)
+
